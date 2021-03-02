@@ -1,9 +1,6 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function createDreamTeam(members) {
-  // console.log(Array.isArray(members));
-  // console.log(typeof(member));
-  console.log(`member - ${members}`);
 if (!Array.isArray(members)){
   return false
 }
