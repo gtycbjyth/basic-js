@@ -11,7 +11,6 @@ class VigenereCipheringMachine {
     for (const letter of str) {
       codeArr.push(letter.charCodeAt())
     }
-    // console.log('convertCharCodeAt',codeArr);
     return codeArr
   }
   
@@ -24,7 +23,6 @@ class VigenereCipheringMachine {
   }
   
   encrypt(encStr, str) {
-    // if(encStr || str === undefined)throw new Error();
     encStr = this.convertCharCodeAt(encStr)
     str = this.convertCharCodeAt(str)
     const alph = this.alphCode()
@@ -51,7 +49,6 @@ class VigenereCipheringMachine {
   }   
   
   decrypt(decStr, str) {
-    // if(encStr || str === undefined)throw new Error();
     decStr = this.convertCharCodeAt(decStr)
     str = this.convertCharCodeAt(str)
     const alph = this.alphCode()
@@ -74,10 +71,7 @@ class VigenereCipheringMachine {
 
       res.push(String.fromCharCode(alph[index]))
     }
-    // this.bool?1 : res= res.reverse();
     return res.join('')    
-    
-    
   }
 }
 

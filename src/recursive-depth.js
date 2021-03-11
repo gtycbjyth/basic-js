@@ -11,5 +11,4 @@ module.exports = class DepthCalculator {
       }
       return count
     }
- 
 };
