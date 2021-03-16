@@ -11,4 +11,4 @@ if (!Array.isArray(members)){
 
   res = Array.isArray(members) ? res.split('').sort().join('') : false ;
   return res
-};
+}

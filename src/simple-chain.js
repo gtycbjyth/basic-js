@@ -26,6 +26,6 @@ const chainMaker = {
     this.str = []
     return chainMaker.res;
   }
-};
+}
 
 module.exports = chainMaker;

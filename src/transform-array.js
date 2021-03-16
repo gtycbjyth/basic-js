@@ -34,5 +34,5 @@ module.exports = function transform(arr) {
   catch (error) {
     throw error
   }
-};
+}
 

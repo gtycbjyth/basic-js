@@ -23,4 +23,4 @@ if (addRepeat > 1) {
   }
   newString = rep (newString, repeat, separator);
 return newString
-};
+}
